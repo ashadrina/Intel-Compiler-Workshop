@@ -23,6 +23,16 @@ Master Intel Compiler vectorization features to optimize code performance using 
 
 **Topics:** Auto-vectorization, optimization reports, vector ISA selection (SSE/AVX/AVX-512), loop multiversioning, user mandated vectorization
 
+### [Lab 4: Vectorization Optimization Workshop](./lab4)
+Hands-on progressive optimization of matrix-vector multiplication from 1.9 → 31.8 GFLOPS (16x speedup).
+
+**Topics:** Unit-stride access, loop dependencies, pointer aliasing, memory alignment, IPO
+
+### [Lab 5: N-Body Simulation Optimization](./lab5)
+Progressive optimization of gravitational N-body simulation from 5.6 → 85+ GFLOPS (15x+ single-threaded).
+
+**Topics:** AoS vs SoA data structures, SIMD pragmas, memory alignment, cache tiling, OpenMP threading
+
 ## Quick Start
 
 Each lab includes:
@@ -53,6 +63,8 @@ Or follow individual exercises in each lab's README.
 lab1/  - C++ compiler diagnostics (ICC vs ICX)
 lab2/  - Fortran debugging (IFX)
 lab3/  - Vectorization optimization (ICX)
+lab4/  - Vectorization workshop (matrix-vector multiply) (ICX and IFX)
+lab5/  - N-body simulation optimization (ICX)
 ```
 
 Each lab is self-contained and can be completed independently.
